@@ -1,0 +1,447 @@
+﻿.doraemon {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 210px;
+}
+
+.doraemon .doraemon-head {
+    position: relative;
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #019fe8;
+    border: 1px solid #000;
+    z-index: 100;
+}
+
+.doraemon .doraemon-head .doraemon-eye {
+    position: relative;
+    width: 50px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 10;
+}
+
+.doraemon .doraemon-head .doraemon-eye-left {
+    position: absolute;
+    left: 53px;
+    top: 10px;
+}
+
+.doraemon .doraemon-head .doraemon-eye-right {
+    position: absolute;
+    left: 105px;
+    top: 10px;
+}
+
+.doraemon .doraemon-head .doraemon-eyeball {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.doraemon .doraemon-head .doraemon-eyeball:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 5px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.doraemon .doraemon-head .doraemon-eyeball-left {
+    bottom: 10px;
+    right: 5px;
+}
+
+.doraemon:hover .doraemon-head .doraemon-eyeball-left {
+    background-color: transparent;
+    bottom: 3px;
+    right: 13px;
+}
+
+.doraemon:hover .doraemon-head .doraemon-eyeball-left:before {
+    content: '\005E';
+    font-size: 1.5em;
+    height: 1.5em;
+    width: 1.5em;
+    background-color: transparent;
+}
+
+.doraemon .doraemon-head .doraemon-eyeball-right {
+    bottom: 10px;
+    left: 5px;
+}
+
+.doraemon .doraemon-head .doraemon-mask {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    width: 180px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.doraemon .doraemon-head .doraemon-nose {
+    position: absolute;
+    top: 55px;
+    left: 90px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f00;
+    border: 1px solid #000;
+    z-index: 20;
+}
+
+.doraemon .doraemon-head .doraemon-nose:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.doraemon .doraemon-head .doraemon-bridge {
+    position: absolute;
+    top: 86px;
+    left: 105px;
+    width: 0px;
+    height: 75px;
+    border: 1px solid #000;
+    z-index: 20;
+}
+
+.doraemon .doraemon-head .doraemon-beard {
+    position: absolute;
+    width: 40px;
+    border: 1px solid #000;
+}
+
+.doraemon .doraemon-head .doraemon-beard-left-1 {
+    top: 86px;
+    left: 40px;
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+
+.doraemon .doraemon-head .doraemon-beard-left-2 {
+    top: 106px;
+    left: 40px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+}
+
+.doraemon .doraemon-head .doraemon-beard-left-3 {
+    top: 126px;
+    left: 40px;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+}
+
+.doraemon .doraemon-head .doraemon-beard-right-1 {
+    top: 86px;
+    left: 130px;
+    -ms-transform: rotate(170deg); /* IE 9 */
+    -webkit-transform: rotate(170deg); /* Chrome, Safari, Opera */
+    transform: rotate(170deg);
+}
+
+.doraemon .doraemon-head .doraemon-beard-right-2 {
+    top: 106px;
+    left: 130px;
+    -ms-transform: rotate(175deg); /* IE 9 */
+    -webkit-transform: rotate(175deg); /* Chrome, Safari, Opera */
+    transform: rotate(175deg);
+}
+
+.doraemon .doraemon-head .doraemon-beard-right-3 {
+    top: 126px;
+    left: 130px;
+    -ms-transform: rotate(-175deg); /* IE 9 */
+    -webkit-transform: rotate(-175deg); /* Chrome, Safari, Opera */
+    transform: rotate(-175deg);
+}
+
+.doraemon .doraemon-head .doraemon-mouse {
+    position: absolute;
+    top: 141px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+}
+
+.doraemon .doraemon-head .doraemon-mouse .doraemon-mouse-left {
+    display: inline-block;
+    width: 70px;
+    margin-right: -5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+
+.doraemon .doraemon-head .doraemon-mouse .doraemon-mouse-right {
+    display: inline-block;
+    width: 70px;
+    margin-left: -5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+.doraemon .doraemon-necklace {
+    position: relative;
+    width: 130px;
+    height: 15px;
+    margin-top: -15px;
+    margin-left: 40px;
+    background-color: #f00;
+    border: 1px solid #000;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 300;
+}
+
+.doraemon .doraemon-bell {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 95px;
+    background-color: #ffe200;
+    border: 1px solid #000;
+    border-radius: 50%;
+    z-index: 300;
+}
+
+.doraemon .doraemon-bell .doraemon-bell-round {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.doraemon .doraemon-bell .doraemon-bell-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1px;
+    height: 7.5px;
+    background-color: #000;
+}
+
+.doraemon .doraemon-body {
+    position: relative;
+    width: 160px;
+    height: 130px;
+    margin-top: -5px;
+    margin-left: 25px;
+    background-color: #019fe8;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    z-index: 200;
+}
+
+.doraemon .doraemon-body .doraemon-body-scarf {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 130px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.doraemon .doraemon-body .doraemon-body-pocket {
+    position: absolute;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.doraemon .doraemon-body .doraemon-body-pocket-mask {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 95px;
+    height: 42.5px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.doraemon .doraemon-arm {
+    position: absolute;
+    width: 50px;
+    height: 110px;
+    background-color: #019fe8;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 25%;
+}
+
+.doraemon .doraemon-arm.doraemon-arm-left {
+    top: 135px;
+    left: -5px;
+    -webkit-animation: wave-left 1s infinite; /* Chrome, Safari, Opera */
+    animation: wave-left 1s infinite;
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation-direction: alternate;
+}
+
+.doraemon .doraemon-arm.doraemon-arm-right {
+    top: 135px;
+    right: -5px;
+    -webkit-animation: wave-right 1s infinite; /* Chrome, Safari, Opera */
+    animation: wave-right 1s infinite;
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation-direction: alternate;
+}
+
+.doraemon .doraemon-hand {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.doraemon .doraemon-hand.doraemon-hand-left {
+    top: 90px;
+    left: -5px;
+}
+
+.doraemon .doraemon-hand.doraemon-hand-right {
+    top: 90px;
+    right: 0px;
+}
+
+.doraemon .doraemon-leg {
+    position: relative;
+    width: 80px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 300;
+}
+
+.doraemon .doraemon-leg.doraemon-leg-left {
+    display: inline-block;
+    margin-top: -10px;
+    border-radius: 40%;
+}
+
+.doraemon .doraemon-leg.doraemon-leg-right {
+    display: inline-block;
+    margin-top: -10px;
+    border-radius: 40%;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wave-left {
+    from {
+        -ms-transform: rotate(135deg); /* IE 9 */
+        -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+        transform: rotate(135deg);
+    }
+    to {
+        -ms-transform: rotate(105deg); /* IE 9 */
+        -webkit-transform: rotate(105deg); /* Chrome, Safari, Opera */
+        transform: rotate(105deg);
+    }
+}
+
+/* Standard syntax */
+@keyframes wave-left {
+    from {
+        -ms-transform: rotate(135deg); /* IE 9 */
+        -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+        transform: rotate(135deg);
+    }
+    to {
+        -ms-transform: rotate(105deg); /* IE 9 */
+        -webkit-transform: rotate(105deg); /* Chrome, Safari, Opera */
+        transform: rotate(105deg);
+    }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wave-right {
+    from {
+        -ms-transform: rotate(-135deg); /* IE 9 */
+        -webkit-transform: rotate(-135deg); /* Chrome, Safari, Opera */
+        transform: rotate(-135deg);
+    }
+    to {
+        -ms-transform: rotate(-120deg); /* IE 9 */
+        -webkit-transform: rotate(-120deg); /* Chrome, Safari, Opera */
+        transform: rotate(-120deg);
+    }
+}
+
+/* Standard syntax */
+@keyframes wave-right {
+    from {
+        -ms-transform: rotate(-135deg); /* IE 9 */
+        -webkit-transform: rotate(-135deg); /* Chrome, Safari, Opera */
+        transform: rotate(-135deg);
+    }
+    to {
+        -ms-transform: rotate(-120deg); /* IE 9 */
+        -webkit-transform: rotate(-120deg); /* Chrome, Safari, Opera */
+        transform: rotate(-120deg);
+    }
+}
